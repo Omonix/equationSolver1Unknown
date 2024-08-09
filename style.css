@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(8, 27, 25);
+    color: teal;
+    font-size: 2em;
+}
+select,
+input {
+    background-color: turquoise;
+    border: solid teal 2.5px;
+    color: teal;
+    border-radius: 20px;
+    padding-left: 0.25em;
+}
+input {
+    overflow-inline: none;
+}
+.resultComponent,
+.firstInput,
+.secondInput,
+.operator,
+.component {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.component {
+    height: 97vh;
+}
+.buttonX,
+.reverseButton {
+    background-color: turquoise;
+    border: solid teal 2.5px;
+    color: teal;
+    font-size: 0.65em;
+    border-radius: 20px;
+    padding: 0.3em;
+    transition-duration: 600ms;
+    cursor: pointer;
+}
+.buttonX:hover,
+.reverseButton:hover {
+    background-color: teal;
+    color: turquoise;
+}
